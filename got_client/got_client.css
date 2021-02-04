@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#head a{
+    text-decoration: none;
+    color: black;
+   }
+   
+   #head a:hover{
+       color: teal;
+   }
+   #head img{
+       width: 85px;
+       height: 40px;
+       margin-left: 35px;
+       margin-top: 7px;
+       grid-area: a1;
+   }
+   #head>:nth-child(1){
+       display: grid;
+       grid-template: "a1 b1";
+       grid-area: a;
+   }
+   #head>:nth-child(1){
+       width: 51vw;
+   }
+   
+   #head a{
+       font-family: Arial;
+       margin-left: 30px;
+       
+   }
+    #head >div >:nth-child(2){
+        grid-area: b1;
+        margin-top: 19px;
+        margin-bottom: 0;
+    }
+    #box2>button{
+        background-color: white;
+        border: 1px solid black;
+        width: 120px;
+        height: 40px;  
+        margin-left: 10px; 
+        border-radius: 5px; 
+    }
+    #box2>button:hover{
+        color: teal;
+        border: 1px solid teal;
+    }
+    #head{
+        display: grid;
+        grid-template:"a b" ;
+    }
+    #box2{
+        width: 30vw;
+        grid-area: b;
+        margin-left: 26vw;
+        margin-top: 10px;
+    }
+    #box2 a{
+        margin-left: 20px;
+    }
+    #gap{
+        width: 100%;
+        height: 100px;
+    }
+    #area22{
+        text-align: center;
+        justify-content: center;
+
+    }
+    
+    /* 2 -paragraph 2 1 -button 1 1- button inside button */
+    .button211{
+       display: inline-block;
+       overflow: hidden;
+       height: 22px;
+       padding: 0 10px;
+       border-radius: 13px;
+       background: linear-gradient(90deg,#ff5a43,#ff735f);
+       font-size: 13px;
+       line-height: 22px;
+       font-weight: 500;
+       color: #fff;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       box-shadow: 0 0 5px rgb(113 92 92 / 9%);
+    }
+    .heading2{
+        font-size: 38px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .para21{
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 40px;
+    }
+    #input_button2{
+        display: flex;
+    }
+    .input21{
+        display: block;
+        height: 50px;
+        width: 300px;
+        padding: 0 8px;
+        border: 1px solid #9dc7c4;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #6c729c;
+        box-shadow: inset 0 2px 5px 0 rgb(0 0 0 /7%);
+        transition: 15s;
+        margin-right: 15px;
+        margin-left: 450px;
+    }
+    .button22{
+        background-color: teal;
+        width: 150px;
+    }
+    .para22{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .para23{
+        font-size: 16px;
+        font-weight: 500;
+        
+    }
+    .ico-googleplus {
+        height: 16px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAMAAAAynjhNAAABRFBMVEUAAAA+j8o+l65AjNc0qVTqQzU0qVTsRDXrRjZAsIDrQzY+j8jrRDbrRDbrRDY1q1Q/qHv8vgo+sFjrRDbqRDU1qVPqRDU+k740qVPrRDb8vQbrRDXqRDc0qVM0qVTrRTU9l7DrRDc2qVM2qlXsRDftRDY2qlU2qlU/mqw2rVr8uwftRj5EqlXVYED/vyDsYzv/oEBBiOvrQzVAjNr8vAXxuwo1qFT8vQb7tQk/js45qlLTuBb5pRA0qFM/kcA1qFRMqkqktSj1hxv7vQXwZSnuTzBtrz84oHb8vQY1qVM+k7g9lLj8vQb8vgXqQzU0qFM1qVT9vQc1qlX8vQU/lq47mKo3qlU/ma3sRznqRDn/vgv/wQs3qlXwRDxEorPrRTs7nbH/VUAUPT00qFPqQzVChfT8vAU/jNM8krY6mZU2pGQ0p1cEq3D+AAAAY3RSTlMA3Vvw+/b04UAE8tnKfUwxGBcJ7erl07a2tLCrh4R7c2pkY1pRRz86MiMjHQ8MCAYE/vn09PHu5+bk4Nza19POysfFwb++u7q5rKGfnpiUjXR0b2FVRUVBNjEvLSoiHhoNDAFF8CGsAAABPklEQVQoz43QVVvDMBSA4TOYdc7chRljwnB3d3cnXbD/f896mrXpmgu+q9O+T+QJ6D3nEtGQzeE5KY+BKadH1gp53434mpANhX283jvk/rzcxi6T2pya1sNmLWva9vT+pQrOO1+6e9AEd3SBaaoOWNPrKuna2lY1B1pN0LukW4qmQVyS0g2XHP0Qa3uKUrrkKIG4Iao013vmmIXLDTCKvAeswQ7fCzwiH4n5Ch6Qj8WcZ5snxXzLrjYr5gC0FJ1eqzK+HsDyqOMAsEnp4gKJg6FD5PnudE7X7YSQIq/SJPKB8i47RMle4djdwUaUOUMw64XEMLCiqhu/GhGitnz2FJRqN6f2n0+2GKtaiZY6/n51NQasYWLqu2MB0Nxq8t030KtE+jQLhoJZO4dxP/TXKO7PoK1mEAUFa/6ABP/vD2+foymNoV9kAAAAAElFTkSuQmCC) 0 0 no-repeat;
+        background-size: 100% 100%;
+    }
+    .ico-googleplus, .ico-roadmap {
+        display: inline-block;
+        vertical-align: middle;
+        width: 16px;
+        font-size: 0;
+    }
+      .text {
+        margin-top: 10px;
+        display: none;
+    }
+    .socials-subscribe a:hover {
+        border-color: #06a99b;
+        text-decoration: none;
+    }
+    .socials-subscribe a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #e8e8e8;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgb(0 0 0 / 4%);
+        font-size: 16px;
+        font-weight: 500;
+        color: #3a3a3a;
+    }
+    a {
+        color: #df9100;
+        text-decoration: none;
+        transition: .15s;
+    }
+    a, button, input[type=button], input[type=file], input[type=image], input[type=reset], input[type=submit], label[for] {
+        cursor: pointer;
+    }
