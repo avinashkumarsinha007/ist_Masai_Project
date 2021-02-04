@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(https://nifty.pm/static/media/waves-large@2x.0f45956a.png);
+        }
+
+        #logo_head{
+            width: 100px;
+            margin-left: 460px;
+        }
+
+        #main{
+            display: flex;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 35px;
+            border: 1px solid #f1f1f1;
+        }
+
+        #main > .left{
+            background-color: #fcf9f7;
+            width: 50%;
+            height: 500px;
+            border-right: 1px solid #f1f1f1;
+        }
+
+        #main > .right{
+            background-color: white;
+            width: 50%;
+            height: 500px;
+        }
+
+        .label{
+            background-color: #f98a3f;
+            color: white;
+            border-radius: 10px;
+            font-size: 13px;
+            padding: 0 4px;
+            display: inline-block
+        }
+
+        .left h2{
+            font-size: 18px;
+            color: #2f2f2f;
+            margin-top: 27px;
+            margin-left: 30px;
+            font-family: sans-serif;
+            font-weight: 700;
+            
+        }
+
+        .left p{
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            color: #5B5A5A;
+            margin-left: 20px;
+            line-height: 20px;
+            margin-top: 15px;
+        }
+
+        .leftimg{
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 30px;
+        }
+
+        .right h1{
+            font-size: 22px;
+            font-weight: 700;
+            font-family: sans-serif;
+            color: #2F2F2F;
+            margin-top: 35px;
+            margin-left: 40px;
+        }
+
+        label {
+            display: block;
+            color: #979DC0;
+            margin-bottom: 5px;
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: 700;
+            margin-left: 30px;
+            margin-top: 30px;
+            line-height: 1.5px;
+        }
+
+        input{
+            text-align: left;
+            padding: 15px 0;
+            padding-right: 180px;
+            padding-left: 20px;
+            margin-left: 30px;
+            border: 1px solid #979DC0;
+            border-radius: 2px;
+            font-size: 15px;
+        }
+
+        #lostpass{
+            margin-left: 195px;
+            font-size: 13px;
+        }
+
+        #btn{
+            background-color: #80DCD4;
+            padding: 12px 178px;
+            color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+            margin-left: 30px;
+            border: 0;
+        }
+
+        #glogo{
+            width: 16px;
+            height: 13px;
+            margin-top: 10px;
+            margin-left: 160px;
+        }
+
+        #glogin{
+            color: #f57d2c;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        #divider{
+            text-align: center;
+            border-bottom: 1px solid slategray;
+            margin-top: 25px;
+        }
+
+        #container{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        #container > #left{
+            height: 1px;
+            background-color: #f4f4f4;
+            width: 170px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+
+        #container > #right{
+            height: 1px;
+            background-color: #f4f4f4;
+            width: 160px;
+            margin-top: 10px;
+            margin-right: 30px;
+        }
+
+        #newacc{
+            color: #2f2f2f;
+            font-family: sans-serif;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #newreg{
+            padding: 10px 35px;
+            background-color: white;
+            border: 1px solid gray;
+            border-radius: 5px;
+            cursor: pointer;
+            color: #F57D2C;
+            justify-content: center;
+            margin-left: 148px;
+            margin-top: 10px;
+        }
+
+        #newreg2{
+            color: #F57D2C;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        
+
+        
+        
+    </style>
+</head>
+<body>
+    <img src="https://nifty.pm/static/media/nifty-logo.622c3309.svg" alt="nifty-logo" id="logo_head">
+
+    <div id="main">
+        <div class="left">
+            <h2>
+                <span class="label">COMING SOON</span>
+                Reporting Dashboard
+            </h2>
+
+            <p>
+                Powerful reporting to keep you on top of your business and workload. Customize your dashboard to gain insights and make informed decisions.
+            </p>
+
+            <div><img src="https://nifty.pm/static/media/main.9818dcc5.png" alt=""  class="leftimg"></div>
+        </div>
+        <div class="right">
+            <h1>Log in to your account</h1>
+            <div>
+                <form>
+                    <label for="email" id="labemail">Email address *</label> <br>
+                    <input type="email" id="email" placeholder="name@company.com" > <br>
+
+                    <label for="Password">Password *
+                        <span id="lostpass">Forgot Password?</span>
+                    </label> <br>
+                    <input type="password" id="password" placeholder="password">
+
+                    <button id="btn">Log in</button>
+                </form>
+            </div>
+                <img src="https://www.iconninja.com/files/276/245/316/alphabet-social-color-google-network-media-icon.svg" alt="logo" id="glogo">
+                <a href="https://api.niftypm.com/auth/google?state=&__hstc=114290072.71574167ca31ac77b2979ec5a232f24c.1612326135098.1612326135098.1612414839447.2&__hssc=114290072.2.1612414839447&__hsfp=1631426806&_ga=2.229251935.2131820210.1612360667-109198572.1612360667" id="glogin"> 
+                    <span>Sign in with Google</a>
+            </span>
+            <div id="container">
+                <div id="left"></div>
+                <div style="background-color: #FCF9F7; border-radius: 10px; width: 30px; text-align: center;">or</div>
+                <div id="right"></div>
+            </div>
+
+            <p id="newacc">Don't have an account?</p>
+
+            <button id="newreg"><a href="signup.html" id="newreg2">Sign up for Free</a></button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

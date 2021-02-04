@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | Nifty</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image: url(https://nifty.pm/static/media/waves-large@2x.0f45956a.png);
+        }
+
+        #top_logo{
+            width: 80px;
+            margin-left: 460px;
+            margin-top: 20px;
+        }
+        
+        #btn{
+            margin-left: 410px;
+            border: 0px solid;
+            border-radius: 5px;
+            background-color: white;
+            color: gray;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        #top h2{
+            font-size: 32px;
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 55px;
+            color: #5A5A5A;
+        }
+
+        #top p{
+            color: gray;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        #bottom{
+            border-top: 0.3px solid gray;
+            background-color: white;
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        #bottom img{
+            width: 16px;
+            height: 13px;
+            background-color: white;
+            border: 0px solid white;
+        }
+
+        #g_signup{
+            text-decoration: none;
+            color: #404040;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+
+        #btn2{
+            padding: 17px 40px;
+            background-color: white;
+            border: 1px solid gray;
+            margin-left: 410px;
+            margin-top: 60px;
+            border-radius: 5px;
+        }
+
+        #division{
+            display: flex;
+            margin-top: 30px;
+        }
+
+        #left{
+            height: 1px;
+            width: 290px;
+            background-color: #F4F4F4;
+            margin-top: 10px;
+            margin-left: 250px;
+        }
+
+        #text{
+            width: 50px;
+            color: #C7CADB;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #F6F6F6;
+        }
+
+        #right{
+            height: 1px;
+            width: 290px;
+            background-color: #F4F4F4;
+            margin-top: 10px;
+            margin-right: 220px;
+        }
+
+        input{
+            padding: 17px 0px;
+            padding-right: 150px;
+            padding-left: 10px;
+            font-size: 15px;
+            border-radius: 5px;
+            color: gray;
+            border: 1px solid #D4D4D4;
+            margin-left: 250px;
+            margin-right: 20px;
+            margin-top: 30px;
+        }
+
+        #btn3{
+            background-color: #00AE9F;
+            color: white;
+            border: 0px solid;
+            border-radius: 5px;
+            padding: 17px 40px;
+        }
+
+        #end p{
+            color: #7B7B7B;
+            margin-left: 250px;
+            margin-top: 10px;
+        }
+
+        #chng{
+            text-decoration: none;
+            padding: 8px 10px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            color: gray;
+            font-weight: 500
+        }
+    
+
+        
+    </style>
+</head>
+<body>
+    <div id="top">
+        <img src="https://nifty.pm/static/media/nifty-logo.622c3309.svg" alt="logo" id="top_logo">
+        <button id="btn" id="newbtn"> <a href="login.html" id="chng" style="text-decoration: none;">Close X</a></button>
+        <h2>Get started with Nifty</h2>
+        <p>Over 10,000 teams trust Nifty to empower their workflow collaboration.</p>
+    </div>
+
+    <div id="bottom">
+        <button id="btn2">
+            <img src="https://www.iconninja.com/files/276/245/316/alphabet-social-color-google-network-media-icon.svg" alt="logo">
+            <a href="https://api.niftypm.com/auth/google?state=&_ga=2.69163543.789282893.1612430173-1445435233.1612430173" id="g_signup">Sign up with Google</a>
+        </button>
+
+        <div id="division">
+            <div id="left"></div>
+            <div id="text">OR</div>
+            <div id="right"></div>
+        </div>
+
+        <div id="end">
+            <input type="email" id="email" placeholder="Enter email address">
+            <button id="btn3">Try Nifty for Free</button>
+            <p>Instant sign up. No credit card required.</p>
+        </div>
+
+    </div>
+
+    <script>
+        var chng = document.querySelector("#chng");
+
+        function colorchg(){
+            chng.style.background = "#F98A3F"
+            chng.style.color = "white"
+        }
+
+        function colorback(){
+            chng.style.background = "white"
+            chng.textContent = "Close X"
+            chng.style.color = "gray"
+        }
+
+        
+            chng.addEventListener("mouseover", colorchg)
+
+            chng.addEventListener("mouseout", colorback)
+
+        
+
+
+    </script>
+</body>
+</html>
