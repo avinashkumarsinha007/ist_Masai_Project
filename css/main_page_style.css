@@ -47,7 +47,14 @@
  #head{
      display: grid;
      grid-template:"a b" ;
-    
+     position: relative;
+     /* background-color: white;
+     top: 0%;
+     height: 73px;
+     padding-top: 9px;
+     justify-content: flex-end;
+     position: fixed; */
+     
  }
  #box2{
      width: 270px;
@@ -204,10 +211,73 @@ p{
     cursor: pointer;
     border-radius: 200px;    
   }
+  .imagecont1 .button3:hover{
+      width: 52px;
+      height: 52px;
+      border-radius: 200px;
+      
+  }
+  
   .margin_top{      
       text-align: center;
       font-weight: bold;
       color:  rgb(255, 115, 0); 
       font-size: 18px;
       letter-spacing: 1px;
+  }
+
+  .imagecont2>:nth-child(1)>img{
+    width: 60px;
+    height: 60px;
+    
+  }
+
+  .imagecont2>:nth-child(2)>img{
+    width: 120px;
+    height: 27px;
+    margin-top: 18px;
+    margin-left:18px ;
+  }
+  .imagecont2>:nth-child(3)>img{
+    width: 135px;
+    height: 41px;
+    margin-top: 15px;
+    margin-left:18px ;
+  }
+  .imagecont2>:nth-child(4)>img{
+    width: 119px;
+    height: 38px;
+    margin-top: 7px;
+    margin-left:18px ;
+  }
+  .imagecont2>:nth-child(5)>img{
+    width: 122px;
+    height: 25px;
+    margin-top: 22px;
+    margin-left:18px ;
+  }
+  .imagecont2>:nth-child(6)>img{
+    width: 103px;
+    height: 38px;
+    margin-top: 13px;
+    margin-left:18px ;
+  }
+  .imagecont2>:nth-child(7)>img{
+    width: 123px;
+    height: 25px;
+    margin-top: 22px;
+    margin-left:18px ;
+  }
+  .imagecont2>:nth-child(8)>img{
+    width: 109px;
+    height: 31px;
+    margin-top: 18px;
+    margin-left:18px ;
+  }
+  .imagecont2{
+      display: flex;
+      margin: auto;
+      margin-top: 30px;
+      margin-left: 115px;
+      margin-bottom: 10vh;
   }
