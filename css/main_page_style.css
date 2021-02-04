@@ -10,7 +10,7 @@
     width: 85px;
     height: 40px;
     margin-left: 35px;
-    margin-top: 7px;
+    margin-top: 12px;
     grid-area: a1;
 }
 #head>:nth-child(1){
@@ -47,7 +47,7 @@
  #head{
      display: grid;
      grid-template:"a b" ;
-
+    
      position: relative;
      /* background-color: white;
      top: 0%;
@@ -57,22 +57,27 @@
      position: fixed; */        
 
  }
+ #head >div{
+     margin-top: 5px;
+ }
  #box2{
      width: 270px;
 
      grid-area: b;
-     margin-left: 26vw;
-     margin-top: 10px;
+     margin-left: 24.8vw;
+     margin-top: 15px;
  }
  #box2 a{
      margin-left: 20px;
-
+     margin-top: 5px;
+ }
+ #box2 button{
+     margin-top: 10px;
  }
 
-#cont2 {
-    
+#cont2 {  
     margin-top: 15.5vh;
-    margin-left: 35px;
+    margin-left: 38px;
     display: grid;
     grid-template: "c d";
     gap: 40px;
@@ -90,8 +95,7 @@ grid-area: c;
     color: white;
     background-image: linear-gradient(to right, rgb(255, 145, 0) , rgb(255, 187, 0));
     border-radius: 10px;
-    width: 65px;
-    height: 13px;
+    width: 65px;  
     text-align: center;
     font-size: 70%;
     padding: 2.8px;
@@ -142,8 +146,8 @@ p{
     width: 380px; 
 }
 #input1{
-    width: 330px;
-    height: 3vh;
+    width: 360px;
+    height: 8.5vh;
     border: 1px solid teal;
     padding: 15px;
     border-radius: 10px;
@@ -196,11 +200,14 @@ p{
 }
 #cont2>div>:last-child{
     color: navy;
+    margin-top: 6px;
 }
 #cont2>div>:last-child>a{
     text-decoration-style: dashed;
     text-decoration-thickness: 0.5px;
     text-underline-offset: 1.5px;
+    color: navy;
+    text-decoration-style: dashed;
 }
 
 .imagecont1 .button3 {
