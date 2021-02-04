@@ -47,16 +47,19 @@
  #head{
      display: grid;
      grid-template:"a b" ;
+
     
  }
  #box2{
      width: 270px;
+
      grid-area: b;
      margin-left: 26vw;
      margin-top: 10px;
  }
  #box2 a{
      margin-left: 20px;
+
  }
 
 #cont2 {
@@ -211,3 +214,5 @@ p{
       font-size: 18px;
       letter-spacing: 1px;
   }
+
+ 
