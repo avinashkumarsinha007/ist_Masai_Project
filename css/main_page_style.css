@@ -47,23 +47,26 @@
  #head{
      display: grid;
      grid-template:"a b" ;
+
      position: relative;
      /* background-color: white;
      top: 0%;
      height: 73px;
      padding-top: 9px;
      justify-content: flex-end;
-     position: fixed; */
-     
+     position: fixed; */        
+
  }
  #box2{
      width: 270px;
+
      grid-area: b;
      margin-left: 26vw;
      margin-top: 10px;
  }
  #box2 a{
      margin-left: 20px;
+
  }
 
 #cont2 {
@@ -226,6 +229,7 @@ p{
       letter-spacing: 1px;
   }
 
+
   .imagecont2>:nth-child(1)>img{
     width: 60px;
     height: 60px;
@@ -281,3 +285,5 @@ p{
       margin-left: 115px;
       margin-bottom: 10vh;
   }
+ 
+
