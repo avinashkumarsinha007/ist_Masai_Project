@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login | Nifty</title>
 
     <style>
         *{
@@ -109,11 +109,13 @@
             border: 1px solid #979DC0;
             border-radius: 2px;
             font-size: 15px;
+            
         }
 
         #lostpass{
             margin-left: 195px;
             font-size: 13px;
+            font-weight: 500;
         }
 
         #btn{
@@ -195,6 +197,11 @@
             background-color: white;
         }
 
+        #pass{
+            text-decoration: none;
+            color: #c0c2c9;
+        }
+
         
 
         
@@ -221,11 +228,11 @@
             <h1>Log in to your account</h1>
             <div>
                 <form>
-                    <label for="email" id="labemail">Email address *</label> <br>
-                    <input type="email" id="email" placeholder="name@company.com" > <br>
+                    <label for="email" id="labemail" >Email address *</label> <br>
+                    <input type="email" id="email" placeholder="name@company.com" onclick="changecolor()"> <br>
 
                     <label for="Password">Password *
-                        <span id="lostpass">Forgot Password?</span>
+                        <span id="lostpass"><a href="forgot_pass.html" id="pass">Forgot password?</a></span>
                     </label> <br>
                     <input type="password" id="password" placeholder="password">
 
@@ -248,6 +255,15 @@
         </div>
         
     </div>
-    
+
+    <script>
+        var cchange = document.getElementById("email")
+
+        function changecolor(){
+            cchange.style.borderColor = "#81DCD5"
+        }
+
+        cchange.addEventListener('click', changecolor)
+    </script> 
 </body>
 </html>
