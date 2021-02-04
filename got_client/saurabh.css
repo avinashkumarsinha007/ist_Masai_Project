@@ -111,7 +111,7 @@ html, body{
         font-weight: 600;
         margin-bottom: 20px;
     }
-    .para2{
+    .para21{
         font-size: 20px;
         font-weight: 300;
         margin-bottom: 40px;
@@ -144,4 +144,9 @@ html, body{
         width: 465px;
         height: 50px;
         margin-bottom: 15px;
+    }
+    .para23{
+        font-size: 16px;
+        font-weight: 500;
+        
     }
