@@ -19,7 +19,7 @@ html, body{
    #head img{
        width: 85px;
        height: 40px;
-       margin-left: 35px;
+       margin-left: 25px;
        margin-top: 7px;
        grid-area: a1;
    }
