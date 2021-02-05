@@ -542,3 +542,25 @@ p{
     font-size: 31px;
     font-weight: 600;
 }
+.cont5{
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+ 
+}
+.cont5 img{
+    width: 125px;
+    height: 162px;
+    margin-bottom: 100px;
+}
+#readme>a{
+    
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+#readme{
+    margin-top: 50px;
+    text-align: center;
+}
