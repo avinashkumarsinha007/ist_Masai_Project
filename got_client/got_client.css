@@ -78,8 +78,9 @@ html, body{
     }
     
     /* 2 -paragraph 2 1 -button 1 1- button inside button */
-    .button211{
-       display: inline-block;
+    .box1{
+       float: left;
+       /* display: inline-block; */
        overflow: hidden;
        height: 22px;
        padding: 0 10px;
@@ -92,6 +93,7 @@ html, body{
        white-space: nowrap;
        text-overflow: ellipsis;
        box-shadow: 0 0 5px rgb(113 92 92 / 9%);
+       margin-left: 550px;
     }
     .heading2{
         font-size: 38px;
@@ -211,6 +213,57 @@ html, body{
         margin-top: 30px;
         margin-left: 115px;
         margin-bottom: 10vh;
+    }
+    .icon-circle.red {
+        margin-left: 650px;
+        background: linear-gradient(90deg,#ff5a43,#ff735f);
+        border: 0;
+        line-height: 56px;
+    }
+    .icon-circle {
+        display: inline-block;
+        vertical-align: middle;
+        width: 56px;
+        height: 56px;
+        border: 1px solid #eeebf3;
+        border-radius: 50%;
+        background: #fff;
+        font-size: 0;
+        text-align: center;
+        line-height: 54px;
+        box-shadow: 0 0 10px #f8f3fb;
+    }
+    .ico-check-tasks {
+        height: 14px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAeCAMAAABt9nzSAAAAYFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////98JRy6AAAAH3RSTlMAzxJq/BDMyV1YD+6HVSwO893Wtgn3wrycdGhMPSAVR/HbCwAAAJZJREFUOMul0kkOg0AMRFEDGSBAJwyZB9//lokXLUuopHLEX79VqYQ3d0M7JQlUFvrrnGLSmsJSWya3WerA5E5zXVgWc1iWf8v0aD4xebMp+oi8q7WpuZRRgT3sgZSTZsukXDTbhkh5qVssvWphj0uJbY8ltlBiOyKJLZFuuXTLpVuX1Lrk1iW3Jnm13exqkveuuqes7wv0MCrW3icZhQAAAABJRU5ErkJggg==) 0 0 no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        vertical-align: middle;
+        width: 20px;
+        font-size: 0;
+    }
+    #common_div{
+        display: grid;
+        grid-template: "a1 b1";
+    }
+    #div_a1{
+        grid-area: a1;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    #div_b1{
+        grid-area: b1;
+    }
+    .common_div_image{
+        width: 475px;
+        height: 300px;
+    }
+    .common_div_heading{
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .common_div_para{
+        margin-bottom: 5px;
     }
   
     
