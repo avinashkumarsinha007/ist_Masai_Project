@@ -20,7 +20,7 @@
                     <a href="">Use Cases</a>
                     <a href="">Resources</a>
                     <a href="../got_client/got_client.html">Got Clients?</a>
-                    <a href="../login/login.html">Pricing</a>
+                    <a href="../login/pricing.html">Pricing</a>
                </diV>
            </div>
            <div id ="box2">
@@ -140,54 +140,80 @@
                </div>              
            </div>
            <div class="page_links">
-               <div><a href="">SET GOALS & TIMELINES</a></div>
-               <div><a href="">COLLABORATES ON TASKS</a></div>
-               <div><a href="">ESTABLISH KNOWLEDGE HUB</a></div>
-               <div><a href="">CREATES DOCS AND NOTES</a></div>
-               <div><a href="">BALANCE WORKLOADS</a></div>
+               <div class="item1">SET GOALS & TIMELINES</div>
+               <div class="item1">COLLABORATES ON TASKS</div>
+               <div class="item1">ESTABLISH KNOWLEDGE HUB</div>
+               <div class="item1">CREATES DOCS AND NOTES</div>
+               <div class="item1">BALANCE WORKLOADS</div>
            </div>
            <div class="cont3">
-               <div class="floating1">
-                    <span>01.</span>
-                    <h3>Set goals & timelines</h3>
-                    <diV><P>Set a visual timeline for your big-picture goals and build team alignment by automating progress as tasks are completed.</p></diV>
-                    <div><a href="">Learn more about Milestones ></a></div>
-                    <button>Start Free Trial</button>
-               </div>
-               <div>
-                   <img src="https://niftypm.com/_nuxt/img/large@1x.3fddcc5.png"/>
-               </div>
-           </div>
-        </diV>
+               
+                    <div class="floating1">
+                        <span>01.</span>
+                        <h3>Set goals & timelines</h3>
+                        <diV><P>Set a visual timeline for your big-picture goals and build team alignment by automating progress as tasks are completed.</p></diV>
+                        <div><a href="">Learn more about Milestones ></a></div>
+                        <button>Start Free Trial</button>
+                   </div>
+
+                    <div class="show1">                   
+                        <img class="show11 fade1" src="https://niftypm.com/_nuxt/img/large@1x.3fddcc5.png"/>
+                        <img  class="fade1  show11" src="https://niftypm.com/_nuxt/img/large@1x.7fd9b55.png"/>                  
+                    </div>
+                    <br>
+                    <div class="dot_button2">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    </div>               
+            </div>
         </diV>
         <div >
             <diV class="smile"><i class='fas fa-grin-alt' style='font-size:30px;color:white'></i></diV>
         </div>
         <p class="text_align_center pp"> What teams say about Nifty…</p>
         <div class="section_body">
-            <div class="shell">
-                 <div class="slider-testimonials">
-                     <div class="swiper-container">
-                         <div class="swiper-wrapper" >
-                            <div class="swiper-slide " style="margin-right: 25px;">
-                                <blockquote class="testimonial">
-                                    <div class="testimonial__entry">
-                                        <p>Nifty is a product that excels in many client environments. Its ease of use makes it a powerful tool for managing our client portfolio.</p>
-                                    </div> 
-                                    <div class="testimonial__foot">
-                                        <div class="author">
-                                            <div class="author__content">
-                                                <h5 class="author__title">Stefan Schmidt</h5> 
-                                                <h6 class="author__subtitle">Executive Partner, Hemmersbach</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </blockquote>
-                            </div>
-                        </div>    
-                     </div>
+            
+            <div class="shell fade">
+                 <div class="slider-testimonials"> 
+                    <p>Nifty is a product that excels in many client environments. Its ease of use makes it a powerful tool for managing our client portfolio.</p>
+                        <h5 class="author__title">Stefan Schmidt</h5> 
+                        <h6 class="author__subtitle">Executive Partner, Hemmersbach</h6>
                  </div>
             </div>
+        
+            <div class="shell fade">
+                <div class="slider-testimonials"> 
+                   <p>“I feel like we've tried every project management platform the cloud has on offer — some have proven too complex or too simplistic for our requirements. When we discovered Nifty we were overjoyed and it's been a seamless transition. The platform is robust, very intuitive and a pleasure to spend time in.”</p>
+                       <h5 class="author__title">Marc Held</h5> 
+                       <h6 class="author__subtitle">CEO, ODYN</h6>
+                </div>
+           </div>
+
+           <div class="shell fade">
+            <div class="slider-testimonials"> 
+               <p>Nifty is the glue my business was missing. Its one tool that my product team, development team, and clients all use, and now everyone knows exactly where to look for updates.</p>
+                   <h5 class="author__title">Bhargav Patel</h5> 
+                   <h6 class="author__subtitle">Founder, IQM</h6>
+            </div>
+           </div>
+            <div class="shell fade">
+                <div class="slider-testimonials"> 
+                   <p>Nifty is by far the best productivity tool I've ever used. They have consolidated so many tools down to one for my team, without compromising the experience.</p>
+                       <h5 class="author__title">Rim N. Kay</h5> 
+                       <h6 class="author__subtitle">Engineering Lead, Emovis</h6>
+                </div>
+           </div>
+           <a class="prev" onclick="prev(-1)">&#10094;</a>
+           <a class="next" onclick="prev(1)">&#10095;</a>
+       </div>
+       <br/>
+       <div id="dot_box">
+           <span class="dot" onclick="currentSlide(1)"></span>
+           <span class="dot" onclick="currentSlide(2)"></span>
+           <span class="dot" onclick="currentSlide(3)"></span>
+           <span class="dot" onclick="currentSlide(4)"></span>
+           
+       </div>
         </div>
         <div id="readme"><a href="">Read more reviews on G2 ></a></div>
         <div class="cont5">
@@ -198,19 +224,23 @@
             <img src="https://images.g2crowd.com/uploads/report_medal/image/1236/medal.svg"/>
             <img src="https://my.g2.com/assets/product-badges/users-love-us-2008b519df49af90dcfa7db4b5fe13c8ec24ced0348f0a6bd039711ad8bbffc7.svg"/>
         </div>
-        <div>
-            <div>
-                <div>
-                    <p>Switch to Nifty in minutes!</p>
-                    <p>Move your projects, team, tasks, and files from Asana, Basecamp, ClickUp, JIRA, Trello, or Wrike quickly and easily! 
+        <div >
+            <div class="cont6">
+                <div >
+                    <p class="pp">Switch to Nifty in minutes!</p>
+                    <p>Move your projects, team, tasks, and files from <span class="bold">Asana, Basecamp, ClickUp, JIRA, Trello,</span> or<span class="bold"> Wrike</span> quickly and easily! 
                         Nifty allows your team to pick up right where you left off without missing a beat.</p>
+                        <a href="#">Import Projects Now >
+                        </a>
                 </div>
                 <div>
                     <img src="https://niftypm.com/_nuxt/img/switch.14f27db.svg"/>
                 </div>
             </div>
         </div>
-        
+        <div class="cont8">
+            <p class="pp">Nifty Case Studies</p>
+        </div>
         
         
         <script src="../javascript/script.js"></script>
