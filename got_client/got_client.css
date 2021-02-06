@@ -22,6 +22,7 @@ html, body{
        margin-left: 25px;
        margin-top: 7px;
        grid-area: a1;
+       
    }
    #head>:nth-child(1){
        display: grid;
