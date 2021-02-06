@@ -274,6 +274,67 @@ html, body{
     .common_div_para{
         margin-bottom: 5px;
     }
+    .ico-heart {
+        margin-left: 650px;
+        width: 28px;
+        height: 26px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA0CAMAAADomgtXAAAAh1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9qkf8RAAAALHRSTlMAv/ER0OBKOEJcH9MIxfzs51caUyT12IB8Z/Y81aqXhmJOMBXXybGwr5OHCimMzSgAAAHeSURBVEjHnZXplqsgEIQLMRojrjExZpsssw/v/3zXO4xRWsHo90fsOgV9WLrxwC/ZYuMsWOmjgWhbVt5ACUL5wA2gkbmt9rrWpFUkNdiqozFdizra0pEE5/DQEqolrbaXPTZLpR0GtP2fs3DkAMnqN0+LhkgOEqGGWbRAGlgDmUVDaBJdwDVpr8BBGjmfzdoNpZxFCTbPyLCYZ9xiM8/oYD/PuCepphnnWarG1ugCrvZboKZQk1mjLt67vz6WYbiEL+VY9B07bY//X2pnBSbHojt4siXAi6x5QSDHoh543M3JVfnXWdmjMddeDoejzohLaY8yAFVnfa/92qMVgDyWk4lz1HxON36qWjXd+FfJjlN9RyiCqcYAmLXkEQ1rSfE8MiIlriGimoDTPFjRL6otN3qWeVM1Q+T0DLVW99Xb7w81+Oid1he6cPJ2dwiaDdyRV81Jz411GULdbEFqS+yDQCbOsFYbmNFUCLQxhQJVmlYQIanDfXK99Z4EasRJb4w5BriSZnXl/Era1RWDfMsRvmHgZPedYEJENl8kYIS7Zp/LYeG+Nfa1O6zkW4Mvxwh3dzDPO0bhrO9jHM9wpr4znuSi9ffNBU9TvLW+twJTqFJlSytM5OfCkoRdfmDgH6KNSAaWOIKAAAAAAElFTkSuQmCC) 0 0 no-repeat;
+        background-size: 100% 100%;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 0;
+    }
+    .icon-circle2 .orange {
+        margin-left: 650px;
+        line-height: 56px;
+        background: linear-gradient(90deg,#f6b800,#ffc107);
+        border: 0;
+    }
+    .icon-circle2 {
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        font-size: 0;
+        box-shadow: 0 0 10px #f8f3fb;
+    }
+    .heading{
+        text-align: center;
+    }
+    #scroll{
+        margin-left: 35px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        width: 1300px;
+        height: 470px;
+        
+    }
+    .scroll_div{
+        width: 300px;
+        height: 250px;
+        margin-left: 10px;
+        border: 1px solid blueviolet;
+    }
+    #blue_div{
+        display: grid;
+        grid-template: "a1 b1";
+        background-color: blueviolet;
+    }
+    .blue_div_a1{
+        grid-area: a1;
+    }
+    .blue_div_b1{
+        grid-area: b1;
+    }
+    .blue_div_input{
+        margin-left: 100px;
+    }
+    .blue_div_image{
+        margin-right: 10px;
+    }
   
     
     
