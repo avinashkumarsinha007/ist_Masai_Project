@@ -49,11 +49,11 @@ User can also sign up with free
 
 ## Technologies
 
-### HTML
+### [HTML](https://www.google.com/search?q=html&oq=html&aqs=chrome..69i57j0i433l3j0i131i433j69i60l3.7079j0j7&sourceid=chrome&ie=UTF-8)
 
-### CSS
+### [CSS](https://www.google.com/search?q=css&oq=css&aqs=chrome..69i57j0i20i263i433j0i433l3j69i60l3.4654j0j7&sourceid=chrome&ie=UTF-8)
 
-### JAVASRIPT
+### [JAVASRIPT](https://www.google.com/search?q=javascript&oq=ja&aqs=chrome.3.69i57j69i59l2j0i67i433l2j69i60l2j69i61.3045j0j7&sourceid=chrome&ie=UTF-8)
 
 
 
