@@ -4,7 +4,7 @@ Streamline, centralize, and modernize work operations. Stop switching between Ch
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Technologies](#technologies)\ 
+2. [Technologies](#technologies)\
   -Javascript
   -html
   -css
@@ -12,8 +12,8 @@ Streamline, centralize, and modernize work operations. Stop switching between Ch
 ## General Info
 
 We have made four pages 
-1. Main page 2. Got Clent page 3.Login page 4. Pricing page
-\You just have to git pull from main and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
+1. Main page 2. Got Clent page 3.Login page 4. Pricing page\
+You just have to git pull from main and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
 
 ### Screenshots
 1. main page
