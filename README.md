@@ -42,6 +42,24 @@ We have made four pages
 
 ![Screenshot (313)](https://user-images.githubusercontent.com/77038699/107174739-f77a7f80-69f0-11eb-8e7a-86a1d958ff5e.png)
 
+3. Login page
+![Screenshot (314)](https://user-images.githubusercontent.com/77038699/107174857-4f18eb00-69f1-11eb-9992-2adfba69ef5e.png)
+
+In login page we can sign up with google
+
+![Screenshot (315)](https://user-images.githubusercontent.com/77038699/107174906-753e8b00-69f1-11eb-81c5-bb52838f89ac.png)
+
+If anyone forget password, he can go the forget password page and reset his password
+
+![Screenshot (316)](https://user-images.githubusercontent.com/77038699/107175034-c64e7f00-69f1-11eb-81b0-d17cae10eadd.png)
+
+User can also sign up with free
+
+![Screenshot (317)](https://user-images.githubusercontent.com/77038699/107175095-f1d16980-69f1-11eb-8e48-1f05a268bcf8.png)
+
+4. Pricing page
+![Screenshot (318)](https://user-images.githubusercontent.com/77038699/107175152-1d545400-69f2-11eb-9c55-126d19747543.png)
+
 
 
 
