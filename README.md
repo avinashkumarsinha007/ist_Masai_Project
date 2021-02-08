@@ -16,5 +16,4 @@ We have made four pages
 ### Screenshots
 1. main page
 
-![Screenshot (300)](https://user-images.githubusercontent.com/77038699/107173556-0a3f8500-69ee-11eb-8ad3-22a3643bccee.png)
 
