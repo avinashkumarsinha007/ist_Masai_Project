@@ -60,6 +60,14 @@ User can also sign up with free
 4. Pricing page
 ![Screenshot (318)](https://user-images.githubusercontent.com/77038699/107175152-1d545400-69f2-11eb-9c55-126d19747543.png)
 
+## Technologies
+
+### HTML
+
+### CSS
+
+### JAVASRIPT
+
 
 
 
