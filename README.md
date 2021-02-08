@@ -14,7 +14,7 @@ Streamline, centralize, and modernize work operations. Stop switching between Ch
 We have made four pages 
 1. Main page 2. Got Clent page 3.Login page 4. Pricing page\
 
-You just have to git pull from main and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
+You just have to git pull from [main](https://github.com/avinashkumarsinha007/ist_Masai_Project) and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
 
 ### Screenshots
 1. main page
