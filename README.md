@@ -4,7 +4,7 @@ Streamline, centralize, and modernize work operations. Stop switching between Ch
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Technologies](#technologies)
+2. [Technologies](#technologies)\ 
   -Javascript
   -html
   -css
@@ -13,7 +13,7 @@ Streamline, centralize, and modernize work operations. Stop switching between Ch
 
 We have made four pages 
 1. Main page 2. Got Clent page 3.Login page 4. Pricing page
-You just have to git pull from main and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
+\You just have to git pull from main and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
 
 ### Screenshots
 1. main page
@@ -24,8 +24,6 @@ You just have to git pull from main and copy [main_page.html]() to your google w
 2. Got Client page
 
 ![Screenshot (307)](https://user-images.githubusercontent.com/77038699/107174481-5c81a580-69f0-11eb-9727-6d2b9f4497f9.png)
-
-![Screenshot (308)](https://user-images.githubusercontent.com/77038699/107174524-76bb8380-69f0-11eb-936b-645e85f4d9b9.png)
 
 
 3. Login page
