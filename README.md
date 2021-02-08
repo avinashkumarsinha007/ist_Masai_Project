@@ -13,6 +13,7 @@ Streamline, centralize, and modernize work operations. Stop switching between Ch
 
 We have made four pages 
 1. Main page 2. Got Clent page 3.Login page 4. Pricing page\
+
 You just have to git pull from main and copy [main_page.html]() to your google web browsser, and navigate to the above mentioned pages .
 
 ### Screenshots
@@ -27,6 +28,7 @@ You just have to git pull from main and copy [main_page.html]() to your google w
 
 
 3. Login page
+
 ![Screenshot (314)](https://user-images.githubusercontent.com/77038699/107174857-4f18eb00-69f1-11eb-9992-2adfba69ef5e.png)
 
 In login page we can sign up with google
@@ -42,6 +44,7 @@ User can also sign up with free
 ![Screenshot (317)](https://user-images.githubusercontent.com/77038699/107175095-f1d16980-69f1-11eb-8e48-1f05a268bcf8.png)
 
 4. Pricing page
+
 ![Screenshot (318)](https://user-images.githubusercontent.com/77038699/107175152-1d545400-69f2-11eb-9c55-126d19747543.png)
 
 ## Technologies
